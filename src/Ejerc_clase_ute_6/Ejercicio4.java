@@ -9,10 +9,10 @@ public class Ejercicio4 {
 		
 		
 		
-		System.out.println("Eliga una opcion");
-		System.out.println("1." +"Opcion numero par ");
-		System.out.println("2. "+"Opcion numero impar ");
-		System.out.println("3. "+"Salir");
+		System.out.println("Elija una opcion");
+		System.out.println("1. Opcion numero par ");
+		System.out.println("2. Opcion numero impar ");
+		System.out.println("3. Salir");
 		int n=Integer.parseInt(JOptionPane.showInputDialog("elija una opcion"));
 		
 		switch(n) {
@@ -38,7 +38,7 @@ public class Ejercicio4 {
 			System.out.println("bye");
 			break;
 			
-		default:System.out.println("Eliga una opcion entre 1 y 3");
+		default:System.out.println("Elija una opcion entre 1 y 3");
 		}
 		
 
